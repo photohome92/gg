@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="topbar">
+    <div class="top-inner">
+        <div class="brand"><h1>Photohome 92</h1></div>
+    </div>
+</div>
+
+<!-- PRODUCT -->
+<div class="product-page">
+
+    <div class="slider-box">
+
+        <button class="arrow left" onclick="prevImg()">❮</button>
+
+        <img id="mainImg">
+
+        <button class="arrow right" onclick="nextImg()">❯</button>
+
+    </div>
+
+    <h2 id="name"></h2>
+    <p id="desc"></p>
+    <h2 id="price"></h2>
+
+    <button class="add-cart-btn" onclick="addToCart()">
+        🛒 Add To Cart
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
